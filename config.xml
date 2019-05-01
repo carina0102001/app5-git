@@ -2,10 +2,10 @@
 
 <widget xmins ="https://www.w3.org/ns/widgets"
 xmins:gap= "http://phonegap.com/ns/1.0"
-id= "com.phonegap.app5"
+id ="com.phonegap.app5"
 version = "1.0.0">
 
-<name> appp5 Advertencias del dispositivo </name>
+<name> app5 Advertencias del dispositivo </name>
 
 <description>
 Aplicacion que realiza la vibracion y beep del dispositivo
