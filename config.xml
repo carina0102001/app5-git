@@ -2,40 +2,41 @@
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id ="com.phonegap.app5"
+id ="com.phonegap.app3"
 version = "1.0.0">
 
-<name>app5 Advertencias del Dispositivo</name>
+<name>app5 Advertencias del dispositivo</name>
 
 <description>
-Aplicacion que realiza la vibracion y beep del Dispositivo
+Aplicacion que realiza la vibracion y beep del dispositivo
 </description>
 
 <author href="https://build.phonegap.com" email="carina.cm813@gmail.com">
-Carina Martiez Nieto
+Carina Martinez Nieto
 </author>
 
 <!--personaliza la aplicacion y plataforma -->
-<!--<preference name="orientation"    value="default"/> -->
-<preference name="orientation"   value="portrait"/>
-<!-- <preference name="orientation"   value="landscape"/> -->
+<preference name="orientation"    value="default"/>
+<!--preference name="orientation"   value="portrait"/>
+<preference name="orientation"   value="landscape"/> -->
 <preference name="target-device"   value="universal"/>
 <preference name="fullscreen"     value="true"/>
 <preference name="android-installLocation"  value="auto"/>
-<preference name="permissions" value="INTERNET"/>
 
 <!--plugins-->
-<!--Core plugins-->
 <plugin name="cordova-plugin-device" spec="~1.1.4"/>
 <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
 <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
-<!--Third part plugins-->
+<preference name="permissions" value="INTERNET"/>
+<!--para accesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
 
-<!--Colocar icono app-->
-
-<icon src="res/android/Custom-Icon-Design-Pretty-Office-8-Sound-on.ico">
+<!-- Colocar icono app -->
+<icon src="res/android/Custom-Icon-Design-Pretty-Office-8-Sound-on.ico"/>
 
 </widget>
-
-
