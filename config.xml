@@ -34,6 +34,6 @@
 
 	<!-- Colocar icono app -->
 
-	<icon src="res/android/Custom-Icon-Design-Pretty-Office-8-Sound-on.icon.png"/>
+	<icon src="res/android/Sound-on-icon.png"/>
 
 </widget>
