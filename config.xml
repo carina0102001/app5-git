@@ -37,6 +37,6 @@ Carina Martinez Nieto
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!-- Colocar icono app -->
-<icon src="res/android/Custom-Icon-Design-Pretty-Office-8-Sound-on.icon"/>
+<icon src="I:\DAM\3ER PARCIAL\aplicaciones\git\app5-git\res"/>
 
 </widget>
